@@ -41,6 +41,7 @@
     <div id="lang">
         <p>En</p>
         <img
+            alt="english"
             src={"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png"}
         />
     </div>
