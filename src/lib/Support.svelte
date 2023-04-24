@@ -8,8 +8,9 @@
         href="https://en.wikipedia.org/wiki/Free_and_open-source_software"
         >FOSS</a
     >
-    project. Or you can check our <a href=""> Github </a> too, if you are interested
-    in your data securty >
+    project. Or you can check our
+    <a href="https://github.com/joee306/Safety-service"> Github </a> too, if you
+    are interested in your data securty.
 </p>
 
 <style>
