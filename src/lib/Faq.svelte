@@ -33,7 +33,7 @@
             .sendForm(
                 "service_pf6hwvo",
                 "template_wzo74j8",
-                e.target,
+                "from" + email + " : " + e.target,
                 "QStSXdhyGYJpysro2"
             )
             .then(
@@ -44,15 +44,12 @@
                     console.log("FAILED...", error.text);
                 }
             );
+        own_question = "";
+        email = "";
         email_count -= 1;
     }
     const open = (i) => {
         all[i].open = !all[i].open;
-    };
-    const send_email = () => {
-        own_question = "";
-        email = "";
-        // not implemented
     };
 </script>
 
@@ -82,7 +79,7 @@
         <input type="email" name="user_email" />
         <label>Message</label>
         <textarea name="message" />
-        <button type="submit" on:click={send_email}> Send </button>
+        <button type="submit"> Send </button>
     </form>
 </div>
 
