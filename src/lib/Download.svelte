@@ -36,9 +36,17 @@
         top: 65vh;
     }
     #apple {
-        right: 30%;
+        right: 15vw;
     }
     #google {
-        left: 30%;
+        left: 15vw;
+    }
+    @media screen and (max-width: 650px) {
+        h1 {
+            text-align: center;
+        }
+        img {
+            width: 13vh;
+        }
     }
 </style>

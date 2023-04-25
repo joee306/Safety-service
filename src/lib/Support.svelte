@@ -17,7 +17,15 @@
     .description {
         background: #65a1ac;
         border-radius: 12px;
-        width: calc(10vw + 15%);
-        padding: 30px;
+        width: calc(40% + 10vh);
+        padding: 25px;
+    }
+    @media screen and (max-width: 800px) {
+        h1 {
+            align-items: center;
+        }
+        .description {
+            width: 85%;
+        }
     }
 </style>
