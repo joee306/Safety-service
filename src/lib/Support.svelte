@@ -10,7 +10,7 @@
     >
     project. Or you can check our
     <a href="https://github.com/joee306/Safety-service"> Github </a> too, if you
-    are interested in your data securty.
+    are interested in your data security.
 </p>
 
 <style>

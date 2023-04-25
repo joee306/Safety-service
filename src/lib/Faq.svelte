@@ -58,15 +58,10 @@
 <div class="questions">
     {#each all as item, i}
         <div class="question">
-            <h3 class="title">{item.question}</h3>
-            {#if item.open}
-                <p class="answer">{item.answer}</p>
-            {/if}
             <button on:click={() => open(i)}>
+                <h3 class="title">{item.question}</h3>
                 {#if item.open}
-                    ⬆️
-                {:else}
-                    ⬇️
+                    <p class="answer">{item.answer}</p>
                 {/if}
             </button>
         </div>
@@ -98,9 +93,6 @@
         }
         .question button {
             border: 0;
-
-            width: 3.5vh;
-            height: 3.5vh;
             border-radius: 12px;
             background: #45717c;
         }
