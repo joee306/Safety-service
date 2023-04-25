@@ -4,7 +4,7 @@
     share your location with your friends and family as soon as you feel unsafe.
     For better safety measurements the police and other government forces will
     be able to see you location over GPS. Informs your chosen contacts of your
-    whereabouts
+    whereabouts.
 </p>
 <div class="show">
     <img

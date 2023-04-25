@@ -2,8 +2,8 @@
 
 <p class="description">
     Yout don't have to pay anything to use Safety service because we want to
-    give it's service to as much people as we can. But to to develope and manage
-    a App you need some money if you have some left for us we would greatly
+    give it's service to as many people as we can. But to to develope and manage
+    a App you need some fundings if you have some left for us we would greatly
     appreciate it. Saftey service is also a part of the <a
         href="https://en.wikipedia.org/wiki/Free_and_open-source_software"
         >FOSS</a

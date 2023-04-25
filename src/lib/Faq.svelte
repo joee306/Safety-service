@@ -15,13 +15,13 @@
             open: false,
         },
         {
-            question: "Can I specify my contact who I notify?",
+            question: "Can I specify my contacts who I notify?",
             answer: "Yes, it's in the app settings.",
             open: false,
         },
         {
             question: "How can I add the Police to my contacts?",
-            answer: "Yes, the police is automatically informed of your situation.",
+            answer: "The police is automatically informed of your situation.",
             open: false,
         },
     ];
@@ -118,7 +118,7 @@
     }
     @media screen and (max-width: 650px) {
         .question {
-            background: #65a1ac;
+            background: #45717c;
             padding: 0.5vw;
             margin-top: 1.5vw;
             margin-right: 5%;
@@ -126,8 +126,12 @@
 
             border-radius: 12px;
         }
-        .question p {
+        .question button {
+            background: #65a1ac;
+            border-radius: 12px;
+            border: 0;
             padding: 1vh;
+            width: 100%;
         }
         .own-questions-div {
             background: orange;
